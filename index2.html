@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="head">
+        <p class="p1">DigiClock</p>
+        <div class="i1"><i id="fullscreen-icon" class="fas fa-expand"></i></div>
+    </div>
+
+    <div class="between">
+       <div class="final-box">
+      
+        <div class="control">
+        <input type="number" id="hours" min="0" max="23" value="0">
+        <input type="number" id="minutes" min="0" max="59" value="0"> 
+        <button onclick="startTimer()" class="b1">Start Timer</button>
+        <button onclick="startBreak()" class="b4">Break</button>
+        </div>
+
+        <div class="box"></div>
+
+      <diV class="control2">  
+        <button onclick="Pause()" class="b2">Pause</button>
+        <button onclick="Reset()" class="b3">Reset</button>
+    </diV>
+
+       
+
+    </div>
+    </div>
+    <script src="app2.js"></script>
+</body>
+</html>
